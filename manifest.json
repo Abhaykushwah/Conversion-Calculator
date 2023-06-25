@@ -1,0 +1,12 @@
+{
+    "name": "Converter",
+    "version": "0.0.1",
+    "description": "Base Converter",
+    "manifest_version": 3,
+    "action": {
+        "default_title": "Base Converter",
+        "default_popup": "index.html"
+        
+    },
+    "permissions": ["activeTab"]
+}

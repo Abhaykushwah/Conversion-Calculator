@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color:rgb(204, 245, 255);
+}
+#b2{
+    background-color:rgb(204, 245, 255);
+    height: 100%;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+textarea:focus {
+  border-color: #4CAF50;
+  background-color:rgb(209, 224, 224);
+}
+#reset{
+border: 2px solid #ccc;
+width:20%;
+padding:2%;
+margin:2%;
+background-color:rgb(204, 245, 255);
+border-radius: 8px;
+
+}
+#reset:hover{
+  cursor: pointer;
+  background-color: rgb(4, 184, 234);
+}

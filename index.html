@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Base Converter</Base></title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="b2">
+        <h2>Base Converter</h2>
+        <table>
+            <tr>
+            <td><b>Decimal:</b></td>
+            <td><textarea type="text" oninput="convert_dec()" class="myInput" id="dec" placeholder="Decimal"></textarea></td>
+            
+            </tr>
+            <tr>
+            <td><b>Binary:</b></td>
+            <td>  <textarea type="text" oninput="convert_bin()" class="myInput" id="bin" placeholder="Binary"></textarea>
+            </td>            
+            </tr>
+
+            <tr>
+            <td><b>Hexadecimal:</b></td>
+            <td><textarea type="text" oninput="convert_hex()" class="myInput" id="hex" placeholder="HexaDecimal"></textarea></td>
+            
+            </tr>
+            <tr>
+            <td><b>Octal:</b></td>
+            <td><textarea type="text" oninput="convert_hex()" class="myInput" id="oct" placeholder="HexaDecimal"></textarea></td>
+            
+            </tr>
+            </table>
+            <button onclick="decToBinaryReset()" id="reset">Reset</button>
+    </div>
+
+</body>
+</html>
