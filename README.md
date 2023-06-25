@@ -75,3 +75,9 @@ git commit -m "Add my feature"
 git push origin my-feature
 ```
 5. Open a pull request on GitHub.
+
+
+## Credits
+[Abhay Kushwah](https://github.com/abhaykushwah/) 💻
+
+[Deepak Gurjar](https://github.com/deepak-gurjar07) 🖥
